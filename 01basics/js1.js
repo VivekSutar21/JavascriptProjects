@@ -5,9 +5,16 @@ let accountName ="vivek sutar"
 var accountType = "saving"
 //this variable is declared using var (var variable are normal variable but we do not use var to declare because of scope problem)
 
+console.log(typeof accountId)
+//typeof is used to know dataType of the variable
+
+//we can convert STRING to NUMBER using [let changeVariable = number(accountType)]
+/*Above line code will change accountType datatype from string to number BUT value of changeVariable is NaN (Not a Number)*/
+
 
 let username = "vivek"
 let password = "vk"
+ 
 
 if(username == 'vivek' && password == 'vk' ){
     console.log("Welcome buddy.....")
